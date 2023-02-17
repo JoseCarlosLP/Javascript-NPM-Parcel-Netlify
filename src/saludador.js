@@ -7,7 +7,7 @@ const div = document.querySelector("#resultado-div");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   let gen;
-  if(genero.value=="hombre")
+  if(genero.value=="Hombre")
     if(edad.value>30)
       gen="Sr. ";
     else 
@@ -17,5 +17,5 @@ form.addEventListener("submit", (event) => {
       gen="Sra. ";
     else
       gen="Srta. ";
-  div.innerHTML = "<p> hola " + gen + nombre.value + "</p>";
+  div.innerHTML = "<p><b> Hola </b> " + gen + nombre.value + "</p>";
 });
