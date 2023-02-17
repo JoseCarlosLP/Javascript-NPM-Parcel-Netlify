@@ -9,15 +9,20 @@
 <body>
     <h1>SALUDADOR</h1>
     <form id="saludador-form">
-        <label for="Nombre">Como te llamas? :</label>
+        <label for="Nombre">Cómo te llamas? :</label>
         <input type="text" id="nombre" />
-        <label for="Genero">Eres?</label>
+        <label for="Genero">Cual es tu género?</label>
         <select id="genero">
             <option>Hombre</option>
             <option>Mujer</option>
         </select>
-        <label for="Edad">Que edad tienes? </label>
+        <label for="Edad">Qué edad tienes? </label>
         <input type="number" id="edad" />
+        <label for="Idioma">Qué idioma hablas? </label>
+        <select id="idioma">
+            <option>ES</option>
+            <option>EN</option>
+        </select>
         <input type="submit" value="Saludar" id="saludar-button" />
     </form>
     <div id="resultado-div"></div>
